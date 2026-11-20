@@ -26,3 +26,10 @@ Thumbs.db
 .env
 .env.*
 *.pem
+
+# Large / downloaded data (keep scripts; download via Kaggle)
+data/raw/
+*.zip
+
+# Optional: keep small samples under data/external/, ignore anything huge
+data/external/*.html

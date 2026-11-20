@@ -1,0 +1,5 @@
+experiment,best_model,in_sample_r2,cv_r2,cv_mae,n_countries,top_features
+A_audio_to_happiness,xgboost,0.30568012259027755,0.011238467389253493,0.5675229629843576,70,"acousticness, tempo, valence, popularity, speechiness"
+B_audio_to_gdp,xgboost,0.6295874299058846,0.3242234126167317,0.8963020069972448,70,"acousticness, loudness, liveness, instrumentalness, popularity"
+C_happiness_to_acousticness,extra_tree,0.5790312187119796,0.34384606657212824,0.05354158073596439,70,"gdp_per_capita, social_support, happiness_score, perceptions_of_corruption, freedom_to_make_life_choices"
+D_happiness_to_valence,extra_tree,0.45895867547584146,0.031798346188010695,0.044316203652154655,70,"generosity, perceptions_of_corruption, healthy_life_expectancy, freedom_to_make_life_choices, social_support"
