@@ -33,3 +33,7 @@ data/raw/
 
 # Optional: keep small samples under data/external/, ignore anything huge
 data/external/*.html
+
+# Large Kaggle downloads — keep local, re-fetch with scripts/download_kaggle_datasets.sh
+data/raw/
+*.zip
