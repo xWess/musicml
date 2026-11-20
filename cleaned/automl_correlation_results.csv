@@ -1,0 +1,4 @@
+experiment,features,target,best_model,test_r2,test_mae,interpretation
+A_music_to_happiness,music only (no country),happiness_score,extra_tree,-0.004477035291108988,0.550025015564368,R2~0 means music habits do not predict national happiness at user level
+B_music_country_to_happiness,music + country,happiness_score,rf,1.0,1.1295853141746193e-14,"Near-perfect score is LEAKAGE via country, not a music correlation"
+C_happiness_to_minutes,happiness / GDP block,minutes_streamed_per_day,sgd,9.739409606579486e-07,151.61618226058258,R2~0 means country happiness does not predict individual streaming minutes
